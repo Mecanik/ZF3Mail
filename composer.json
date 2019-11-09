@@ -5,7 +5,7 @@
     "description": "Zend Framework 3 SMTP E-Mail Module",
     "keywords": ["zend-framework3","zend 3 stmp","zend 3 email module"],
     "homepage": "https://github.com/Mecanik/ZF3Mail",
-    "license": "Apache License 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
 			"name" : "Norbert Boros",
