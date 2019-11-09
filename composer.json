@@ -14,7 +14,7 @@
 			"homepage" : "http://liveguard-software.com/"
         }
     ],
-    "minimum-stability" : "dev",
+    "minimum-stability" : "stable",
     "support" : {
 		"email" : "Norbert.Boros@liveguard-software.com"
     },
