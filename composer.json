@@ -1,0 +1,33 @@
+{
+    "name": "mecanik/zf3mail",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "Zend Framework 3 SMTP E-Mail Module",
+    "keywords": ["zend-framework3","zend 3 stmp","zend 3 email module"],
+    "homepage": "https://github.com/Mecanik/ZF3Mail",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+			"name" : "Norbert Boros",
+			"email" : "Norbert.Boros@liveguard-software.com",
+			"role" : "Developer/Director/CEO",
+			"homepage" : "http://liveguard-software.com/"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "support" : {
+		"email" : "Norbert.Boros@liveguard-software.com"
+    },
+    "require" : {
+		"php" : "^7.0",
+		"zendframework/zend-mvc": "^3.1"
+    },
+    "conflict": {
+        "zendframework/zendframework": "<3.0.0"
+    },
+    "autoload" : {
+		"psr-4" : {
+			"Mecanik\\ZF3Mail\\" : "src"
+		}
+	}
+}
