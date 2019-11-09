@@ -1,8 +1,11 @@
-# ZF3Mail 
-
+# ZF3Mail - Zend Framework 3 SMTP E-Mail Module
+ [![Latest Stable Version](https://poser.pugx.org/mecanik/zf3mail/v/stable)](https://packagist.org/packages/mecanik/zf3mail)
+ [![License](https://poser.pugx.org/mecanik/zf3mail/license)](https://packagist.org/packages/mecanik/zf3mail)
+ [![Total Downloads](https://poser.pugx.org/mecanik/zf3mail/downloads)](https://packagist.org/packages/mecanik/zf3mail)
+ 
 Description
 ------------
-Zend Framework 3 SMTP E-Mail Module to make your development much faster and easier when sending emails.
+E-Mail Module to make your development much faster and easier when sending HTML emails.
 
 ### Current Features:
 * Service (e-mail SMTP transport) using the "Zend 3" method
