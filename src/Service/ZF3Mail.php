@@ -110,8 +110,13 @@ class ZF3Mail
 
     public function send($message)
     {
-        //var_Dump();
-
-        $this->smtpManager->send($message);
+        $sent = true;
+        try {
+            $this->smtpManager->send($message);
+        } catch (\Zend\Mail\Transport\Exception\ExceptionInterface $e) {
+            $sent = false;
+        }
+        
+        return $sent;
     }
 }
