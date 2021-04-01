@@ -19,7 +19,7 @@
 		"email" : "Norbert.Boros@liveguard-software.com"
     },
     "require" : {
-		"php" : "^7.0",
+		"php" : "^7.0 || ^8.0",
 		"zendframework/zend-mvc": "^3.1"
     },
     "conflict": {
